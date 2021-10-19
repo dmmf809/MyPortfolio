@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import Hero from './components/HeroSection/Hero';
+import Fade from 'react-reveal/Fade';
+import NavBar from './components/Navbar/NavBar';
+import Container from 'react-bootstrap/Container';
+import About from './components/About/About';
 import './App.css';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import MyFooter from './components/Footer/MyFooter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <NavBar />
+      <Container className='container-box'>
+        <Fade top duration={1000}>
+          <About />
+        </Fade>
+      </Container>
+      <Container className='container-box'>
+        <Fade top duration={1000}>
+          <hr />
+          <Skills />
+        </Fade>
+      </Container>
+      <Container className='container-box'>
+        <Fade top duration={1000}>
+          <hr />
+          <Projects />
+        </Fade>
+      </Container>
+      <Container className='container-box'>
+        <Fade top duration={1000}>
+          <hr />
+          <Contact />
+        </Fade>
+      </Container>
+      <MyFooter />
+    </>
   );
 }
 
