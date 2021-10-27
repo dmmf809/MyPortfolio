@@ -3,7 +3,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
-import { Img, SkillsContainer, SkillsHeader, CardTitle } from './styles';
+import {
+  Img,
+  SkillsContainer,
+  SkillsHeader,
+  CardTitle,
+  CardText,
+} from './styles';
 import { skills_data } from './skills-data';
 
 const Skills = () => {
@@ -20,7 +26,7 @@ const Skills = () => {
               <Card.Body>
                 <CardTitle className='text-center'>Front-end</CardTitle>
                 <hr />
-                <Card.Text className='d-flex justify-content-center flex-row'>
+                <CardText className='d-flex'>
                   {skills_data.frontend.map((techSkill, i) => (
                     <span className='p-2' key={`${techSkill.skillName}${i}`}>
                       <Img
@@ -32,7 +38,7 @@ const Skills = () => {
                       {techSkill.skillName}
                     </span>
                   ))}
-                </Card.Text>
+                </CardText>
               </Card.Body>
             </Card>
             {/*Back-end*/}
