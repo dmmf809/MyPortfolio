@@ -57,6 +57,28 @@ const Skills = () => {
                 </Card.Body>
               </Card>
             </Col>
+            {/*Version control*/}
+            <Col md={6}>
+              <Card className='focus mt-2 mb-2'>
+                <Card.Body>
+                  <CardTitle className='text-center'>Version Control</CardTitle>
+                  <hr />
+                  <Card.Text className='d-flex justify-content-center'>
+                    {skills_data.versionControl.map((techSkill, i) => (
+                      <span className='p-2' key={i}>
+                        <Img
+                          src={techSkill.imgSrc}
+                          alt={techSkill.imgAltText}
+                          className='m-1'
+                          rounded
+                        />
+                        {techSkill.skillName}
+                      </span>
+                    ))}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
         </Slide>
       </SkillsContainer>
