@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.4f65f190.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.7fca78fa.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.7fca78fa.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.cd1ef6b8.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.cd1ef6b8.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.72e8e4ca.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.72e8e4ca.js.map",
-    "static/js/2.f98a0816.chunk.js": "/my-portfolio/static/js/2.f98a0816.chunk.js",
-    "static/js/2.f98a0816.chunk.js.map": "/my-portfolio/static/js/2.f98a0816.chunk.js.map",
+    "static/js/2.2a66f631.chunk.js": "/my-portfolio/static/js/2.2a66f631.chunk.js",
+    "static/js/2.2a66f631.chunk.js.map": "/my-portfolio/static/js/2.2a66f631.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/main.4f65f190.chunk.css.map": "/my-portfolio/static/css/main.4f65f190.chunk.css.map",
-    "static/js/2.f98a0816.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.f98a0816.chunk.js.LICENSE.txt",
+    "static/js/2.2a66f631.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.2a66f631.chunk.js.LICENSE.txt",
+    "static/media/amazon-clone.09de8548.png": "/my-portfolio/static/media/amazon-clone.09de8548.png",
     "static/media/bootstrap-4.997c463d.svg": "/my-portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/css3.8fba365c.svg": "/my-portfolio/static/media/css3.8fba365c.svg",
     "static/media/git-icon.c60b7e5a.svg": "/my-portfolio/static/media/git-icon.c60b7e5a.svg",
@@ -26,13 +27,12 @@
     "static/media/slide3.adb5ca17.png": "/my-portfolio/static/media/slide3.adb5ca17.png",
     "static/media/smile-bitmoji.f9f80d4d.png": "/my-portfolio/static/media/smile-bitmoji.f9f80d4d.png",
     "static/media/styled-components.2e00d138.svg": "/my-portfolio/static/media/styled-components.2e00d138.svg",
-    "static/media/typegame.5f7efc17.png": "/my-portfolio/static/media/typegame.5f7efc17.png",
     "static/media/webflix.5e7e3318.png": "/my-portfolio/static/media/webflix.5e7e3318.png"
   },
   "entrypoints": [
     "static/js/runtime-main.72e8e4ca.js",
-    "static/js/2.f98a0816.chunk.js",
+    "static/js/2.2a66f631.chunk.js",
     "static/css/main.4f65f190.chunk.css",
-    "static/js/main.7fca78fa.chunk.js"
+    "static/js/main.cd1ef6b8.chunk.js"
   ]
 }
