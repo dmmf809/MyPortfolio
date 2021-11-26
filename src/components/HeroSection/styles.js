@@ -67,6 +67,13 @@ export const HeroText = styled.h1`
   }
 `;
 
+export const Labels = styled.p`
+  margin-top: 10px;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #ebd3e8;
+`;
+
 export const TypeWriterContainer = styled.div`
   margin-top: 10px;
   font-size: 25px;

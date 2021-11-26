@@ -10,7 +10,7 @@ import {
 } from './styles';
 import Project1 from '../../assets/projects/rental.png';
 import Project2 from '../../assets/projects/webflix.png';
-import Project3 from '../../assets/projects/typegame.png';
+import Project3 from '../../assets/projects/amazon-clone.png';
 import Project4 from '../../assets/projects/restaurant.png';
 
 const Projects = () => {
@@ -22,18 +22,18 @@ const Projects = () => {
           <Row xs={1} md={2} className='g-4'>
             <Col>
               <Card>
-                <CardImg variant='top' src={Project1} />
+                <CardImg variant='top' src={Project3} />
                 <Card.Body>
-                  <Card.Title>Dodgy Brakes Car Rental</Card.Title>
+                  <Card.Title>Amazon Clone</Card.Title>
                   <Card.Text>
-                    This React based website filters the clients based on the
-                    search parameter and displays their information. It
-                    calculates the total rent amount of the vehicle chosen for a
-                    specified client.
+                    Replicated Amazon.ca website with full e-commerce
+                    functionality such as account sign-in and register using
+                    Firebase authentication, checkout page, and real payments
+                    using Stripe JS.
                   </Card.Text>
                   <Button
                     variant='primary'
-                    href='https://dmmf809.github.io/react-app-dodgy-brake-rental/'
+                    href='https://clone-83b6b.web.app/'
                     target='_blank'
                   >
                     View Website
@@ -64,16 +64,18 @@ const Projects = () => {
             </Col>
             <Col>
               <Card>
-                <CardImg variant='top' src={Project3} />
+                <CardImg variant='top' src={Project1} />
                 <Card.Body>
-                  <Card.Title>Typing Game</Card.Title>
+                  <Card.Title>Dodgy Brakes Car Rental</Card.Title>
                   <Card.Text>
-                    Utilizes React State Management by counting the words typed
-                    by the user at a given time.
+                    This React based website filters the clients based on the
+                    search parameter and displays their information. It
+                    calculates the total rent amount of the vehicle chosen for a
+                    specified client.
                   </Card.Text>
                   <Button
                     variant='primary'
-                    href='https://dmmf809.github.io/react-speedtype/'
+                    href='https://dmmf809.github.io/react-app-dodgy-brake-rental/'
                     target='_blank'
                   >
                     View Website
@@ -81,6 +83,7 @@ const Projects = () => {
                 </Card.Body>
               </Card>
             </Col>
+
             <Col>
               <Card>
                 <CardImg variant='top' src={Project4} />
