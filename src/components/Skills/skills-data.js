@@ -2,6 +2,7 @@ import BOOTSRAP_ICON from '../../assets/skills/bootstrap-4.svg';
 import REACTBTSRP_ICON from '../../assets/skills/react-bootstrap.svg';
 import CSS_ICON from '../../assets/skills/css3.svg';
 import HTML_ICON from '../../assets/skills/html-5.svg';
+import NODE_ICON from '../../assets/skills/nodejs.svg';
 import JAVASCRIPT_ICON from '../../assets/skills/javascript.svg';
 import MYSQL_ICON from '../../assets/skills/mysql.svg';
 import REACT_ICON from '../../assets/skills/react.svg';
@@ -31,9 +32,9 @@ export const skills_data = {
       skillName: 'Bootstrap',
     },
     {
-      imgAltText: 'React JS',
+      imgAltText: 'React',
       imgSrc: REACT_ICON,
-      skillName: 'React JS',
+      skillName: 'React',
     },
     {
       imgAltText: 'React Bootstrap',
@@ -49,9 +50,9 @@ export const skills_data = {
 
   backend: [
     {
-      imgAltText: 'JavaScript',
-      imgSrc: JAVASCRIPT_ICON,
-      skillName: 'JavaScript',
+      imgAltText: 'Node.js',
+      imgSrc: NODE_ICON,
+      skillName: 'Node.js',
     },
     {
       imgAltText: 'MySQL',

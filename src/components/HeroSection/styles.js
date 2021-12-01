@@ -93,20 +93,21 @@ export const HeroNav = styled(Nav)`
   }
 `;
 
-export const ButtonTitle = styled(Nav.Link)`  margin: 0 2%;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    color: #ffff;
-    font-size: 15px;
-    cursor: pointer;
+export const ButtonTitle = styled(Nav.Link)`
+  margin: 0 2%;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: #ffff;
+  font-size: 15px;
+  cursor: pointer;
 
-    &:hover {
-        border-bottom: 2px solid #FFAFF0;
-        background-color: transparent;
-        color: #e9c3fa;
-        transform
-    }`;
+  &:hover {
+    border-bottom: 2px solid #ffaff0;
+    background-color: transparent;
+    color: #e9c3fa;
+  }
+`;
 
 export const CarouselImg = styled.img`
   width: 100%;
