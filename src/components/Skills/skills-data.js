@@ -54,11 +54,6 @@ export const skills_data = {
       imgSrc: NODE_ICON,
       skillName: 'Node.js',
     },
-    {
-      imgAltText: 'MySQL',
-      imgSrc: MYSQL_ICON,
-      skillName: 'MySQL',
-    },
   ],
 
   versionControl: [
