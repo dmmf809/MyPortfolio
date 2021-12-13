@@ -54,7 +54,7 @@ const Projects = () => {
                   </Card.Text>
                   <Button
                     variant='primary'
-                    href='https://dmmf809.github.io/react-app-webflix/'
+                    href='https://dmmf809.github.io/Webflix/'
                     target='_blank'
                   >
                     View Website
@@ -75,7 +75,7 @@ const Projects = () => {
                   </Card.Text>
                   <Button
                     variant='primary'
-                    href='https://dmmf809.github.io/react-app-dodgy-brake-rental/'
+                    href='https://dmmf809.github.io/CarRental/'
                     target='_blank'
                   >
                     View Website
@@ -95,7 +95,7 @@ const Projects = () => {
                   </Card.Text>
                   <Button
                     variant='primary'
-                    href='https://dmmf809.github.io/react-pizza-place/'
+                    href='https://dmmf809.github.io/CityDelicatessen/'
                     target='_blank'
                   >
                     View Website
