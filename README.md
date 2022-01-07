@@ -2,4 +2,4 @@
 
 # Deployment
 
-https://dmmf809.github.io/MyPortfolio/
+https://dmmf809.github.io/my-portfolio/
