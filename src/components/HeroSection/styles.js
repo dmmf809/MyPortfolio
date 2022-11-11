@@ -1,53 +1,27 @@
-import styled from 'styled-components';
-import Nav from 'react-bootstrap/Nav';
+import styled from "styled-components";
+import Nav from "react-bootstrap/Nav";
 
 export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 995px;
+  min-height: 100vh;
   position: relative;
-
-  @media (max-width: 1620px) {
-    height: 800px;
-  }
-
-  @media (max-width: 1300px) {
-    height: 750px;
-  }
-
-  @media (max-width: 1225px) {
-    height: 650px;
-  }
-
-  @media (max-width: 1050px) {
-    height: 550px;
-  }
-
-  @media (max-width: 415px) {
-    height: 220px;
-  }
 `;
 
 export const HeroBg = styled.div`
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
   width: 100%;
+  z-index: 100;
 `;
 
 export const HeroText = styled.h1`
   position: absolute;
   color: #ffff;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
   text-align: center;
-  font-size: 50px;
-  font-family: 'Karla', sans-serif;
+  font-size: 3.5em;
+  font-family: "Karla", sans-serif;
   letter-spacing: 7px;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight: 100;
@@ -57,13 +31,8 @@ export const HeroText = styled.h1`
     color: #ffaff0;
   }
 
-  @media (max-width: 1300px) {
-    font-size: 45px;
-  }
-
-  @media (max-width: 415px) {
-    height: 80px;
-    font-size: 20px;
+  @media (max-width: 40em) {
+    font-size: 2.5em;
   }
 `;
 
@@ -110,7 +79,7 @@ export const ButtonTitle = styled(Nav.Link)`
 `;
 
 export const CarouselImg = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
 `;

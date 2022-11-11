@@ -1,18 +1,14 @@
-import styled from 'styled-components';
-import Card from 'react-bootstrap/Card';
+import styled from "styled-components";
+import Card from "react-bootstrap/Card";
 
 export const ProjectContainer = styled.div`
   background-color: transparent;
-  padding-top: 65px;
-`;
-
-export const ProjectWrapper = styled.div`
-  height: 100%;
+  padding-top: 70px;
 `;
 
 export const ProjectHeader = styled.h1`
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
   padding-bottom: 25px;
 `;

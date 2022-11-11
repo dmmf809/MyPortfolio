@@ -1,4 +1,4 @@
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import {
   HeroContainer,
   HeroText,
@@ -7,37 +7,33 @@ import {
   ButtonTitle,
   CarouselImg,
   HeroBg,
-} from './styles';
-import Slide1 from '../../assets/carousel/slide1.png';
-import Slide2 from '../../assets/carousel/slide2.png';
-import Slide3 from '../../assets/carousel/slide3.png';
-import Carousel from 'react-bootstrap/Carousel';
+} from "./styles";
+import Slide1 from "../../assets/carousel/slide1.png";
+import Slide2 from "../../assets/carousel/slide2.png";
+import Slide3 from "../../assets/carousel/slide3.png";
+import Carousel from "react-bootstrap/Carousel";
 
 const Hero = () => {
   return (
     <>
-      <HeroContainer id='home'>
+      <HeroContainer id="home">
         <HeroBg>
-          <Carousel controls={false} interval={3000}>
+          <Carousel controls={false} interval={3000} pause>
             <Carousel.Item>
-              <CarouselImg
-                className='d-block w-100'
-                src={Slide1}
-                alt='First slide'
-              />
+              <CarouselImg className="d-block" src={Slide1} alt="First slide" />
             </Carousel.Item>
             <Carousel.Item>
               <CarouselImg
-                className='d-block w-100'
+                className="d-block w-100"
                 src={Slide2}
-                alt='Second slide'
+                alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <CarouselImg
-                className='d-block w-100'
+                className="d-block w-100"
                 src={Slide3}
-                alt='Third slide'
+                alt="Third slide"
               />
             </Carousel.Item>
           </Carousel>
@@ -50,17 +46,17 @@ const Hero = () => {
           <TypeWriterContainer>
             <Typewriter
               options={{
-                strings: ['Web Developer', 'Learner', 'Designer'],
+                strings: ["Web Developer", "Learner", "Designer"],
                 autoStart: true,
                 loop: true,
                 delay: 50,
               }}
             />
           </TypeWriterContainer>
-          <HeroNav className='justify-content-center'>
-            <ButtonTitle href='#about'>About</ButtonTitle>
-            <ButtonTitle href='#skills'>Skills</ButtonTitle>
-            <ButtonTitle href='#projects'>Projects</ButtonTitle>
+          <HeroNav className="justify-content-center">
+            <ButtonTitle href="#about">About</ButtonTitle>
+            <ButtonTitle href="#skills">Skills</ButtonTitle>
+            <ButtonTitle href="#projects">Projects</ButtonTitle>
           </HeroNav>
         </HeroText>
       </HeroContainer>

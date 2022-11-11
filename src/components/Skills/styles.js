@@ -1,27 +1,46 @@
-import styled from 'styled-components';
-import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
+import styled from "styled-components";
+import Image from "react-bootstrap/Image";
+import Card from "react-bootstrap/Card";
 
 export const SkillsContainer = styled.div`
-  height: 800px;
-  padding-top: 65px;
+  padding-top: 35px;
+`;
 
-  @media (max-width: 415px) {
-    height: 995px;
-  }
+export const SkillsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  width: 100%;
 `;
 
 export const SkillsHeader = styled.h1`
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
 `;
 
-export const Img = styled(Image)`
-  width: 5em;
+export const ImgContainer = styled.div`
+  display: flex;
 
-  @media (max-width: 415px) {
-    width: 2em;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1em;
+
+  @media (max-width: 40em) {
+    width: 6em;
+  }
+`;
+
+export const Img = styled(Image)`
+  width: auto;
+  height: 130px;
+
+  @media (max-width: 40em) {
+    width: auto;
+    height: 90px;
   }
 `;
 
@@ -31,6 +50,7 @@ export const CardTitle = styled(Card.Title)`
 `;
 
 export const CardText = styled(Card.Text)`
+  flex-wrap: wrap;
   justify-content: center;
 
   @media (max-width: 415px) {
