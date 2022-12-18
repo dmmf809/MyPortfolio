@@ -1,19 +1,29 @@
-import Navbar from 'react-bootstrap/Navbar';
-import { MyNavbar, MyNavLinks, NavLinksContainer } from './styles';
+import Navbar from "react-bootstrap/Navbar";
+import { MyNavbar, MyNavLinks, NavLinksContainer } from "./styles";
 
 const NavBar = () => {
   return (
-    <MyNavbar sticky='top' variant='dark'>
+    <MyNavbar sticky="top" variant="dark">
       <Navbar.Collapse
-        className='justify-content-end'
-        id='resposive-navbar-nav'
+        className="justify-content-end"
+        id="resposive-navbar-nav"
       >
         <NavLinksContainer>
-          <MyNavLinks href='#home'>Home</MyNavLinks>
-          <MyNavLinks href='#about'>About</MyNavLinks>
-          <MyNavLinks href='#skills'>Skills</MyNavLinks>
-          <MyNavLinks href='#projects'>Projects</MyNavLinks>
-          <MyNavLinks href='#contact'>Contact</MyNavLinks>
+          <MyNavLinks smooth to="#home">
+            Home
+          </MyNavLinks>
+          <MyNavLinks smooth to="#about">
+            About
+          </MyNavLinks>
+          <MyNavLinks smooth to="#skills">
+            Skills
+          </MyNavLinks>
+          <MyNavLinks smooth to="#projects">
+            Projects
+          </MyNavLinks>
+          <MyNavLinks smooth to="#contact">
+            Contact
+          </MyNavLinks>
         </NavLinksContainer>
       </Navbar.Collapse>
     </MyNavbar>

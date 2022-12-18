@@ -18,8 +18,10 @@ export const ProjectCards = styled.div`
   justify-content: space-around;
 `;
 
-export const CardImg = styled(Card.Img)`
+export const ProjCard = styled(Card)`
+  transition: all 0.3s ease;
   &:hover {
-    transform: scale(1);
+    transform: scale(1.03);
+    background-color: #fce6f8;
   }
 `;

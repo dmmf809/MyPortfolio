@@ -54,9 +54,9 @@ const Hero = () => {
             />
           </TypeWriterContainer>
           <HeroNav className="justify-content-center">
-            <ButtonTitle href="#about">About</ButtonTitle>
-            <ButtonTitle href="#skills">Skills</ButtonTitle>
-            <ButtonTitle href="#projects">Projects</ButtonTitle>
+            <ButtonTitle to="#about">About</ButtonTitle>
+            <ButtonTitle to="#skills">Skills</ButtonTitle>
+            <ButtonTitle to="#projects">Projects</ButtonTitle>
           </HeroNav>
         </HeroText>
       </HeroContainer>

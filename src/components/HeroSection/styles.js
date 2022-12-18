@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Nav from "react-bootstrap/Nav";
+import { NavHashLink } from "react-router-hash-link";
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -62,9 +63,10 @@ export const HeroNav = styled(Nav)`
   }
 `;
 
-export const ButtonTitle = styled(Nav.Link)`
+export const ButtonTitle = styled(NavHashLink)`
   margin: 0 2%;
   background-color: transparent;
+  text-decoration: none;
   border: 0;
   border-radius: 0;
   color: #ffff;
