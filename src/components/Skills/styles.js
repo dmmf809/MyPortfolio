@@ -37,6 +37,11 @@ export const ImgContainer = styled.div`
 export const Img = styled(Image)`
   width: auto;
   height: 130px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   @media (max-width: 40em) {
     width: auto;
