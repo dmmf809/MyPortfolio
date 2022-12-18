@@ -1,16 +1,16 @@
 import Project1 from "../../assets/projects/rental.png";
 import Project2 from "../../assets/projects/webflix.png";
-import Project3 from "../../assets/projects/amazon-clone.png";
+import Project3 from "../../assets/projects/maharlika-divas.png";
 import Project4 from "../../assets/projects/restaurant.png";
 
 export const projects = {
   project1: [
     {
-      name: "Amazon Clone",
+      name: "Client Website",
       img: Project3,
       description:
-        "Replicated Amazon.ca website with full e-commerce functionality such as account sign-in and register using Firebase authentication, checkout page, and real payments using Stripe JS.",
-      link: "https://clone-83b6b.web.app/",
+        "Created this website for a client's non-profit organization. Has information about the organization and categorized events for ease of navigation.",
+      link: "https://maharlika-divas.netlify.app/",
     },
   ],
   project2: [
