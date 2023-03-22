@@ -25,3 +25,9 @@ export const ProjCard = styled(Card)`
     background-color: #fce6f8;
   }
 `;
+
+export const LinksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

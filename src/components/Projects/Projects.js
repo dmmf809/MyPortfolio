@@ -2,7 +2,13 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { ProjectContainer, ProjectHeader, ProjCard } from "./styles";
+import {
+  ProjectContainer,
+  ProjectHeader,
+  ProjCard,
+  Links,
+  LinksContainer,
+} from "./styles";
 import { projects } from "./projects-data";
 
 const Projects = () => {
@@ -19,9 +25,24 @@ const Projects = () => {
                   <Card.Body>
                     <Card.Title>{proj.name}</Card.Title>
                     <Card.Text>{proj.description}</Card.Text>
-                    <Button variant="primary" href={proj.link} target="_blank">
-                      View Website
-                    </Button>
+                    <LinksContainer>
+                      <Button
+                        variant="primary"
+                        href={proj.link}
+                        target="_blank"
+                        style={{ marginRight: "0.5rem" }}
+                      >
+                        View Website
+                      </Button>
+                      <Button
+                        variant="outline-dark"
+                        href={proj.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-github"></i> GitHub
+                      </Button>
+                    </LinksContainer>
                   </Card.Body>
                 </>
               ))}
@@ -35,9 +56,24 @@ const Projects = () => {
                   <Card.Body>
                     <Card.Title>{proj.name}</Card.Title>
                     <Card.Text>{proj.description}</Card.Text>
-                    <Button variant="primary" href={proj.link} target="_blank">
-                      View Website
-                    </Button>
+                    <LinksContainer>
+                      <Button
+                        variant="primary"
+                        href={proj.link}
+                        target="_blank"
+                        style={{ marginRight: "0.5rem" }}
+                      >
+                        View Website
+                      </Button>
+                      <Button
+                        variant="outline-dark"
+                        href={proj.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-github"></i> GitHub
+                      </Button>
+                    </LinksContainer>
                   </Card.Body>
                 </>
               ))}
@@ -51,9 +87,24 @@ const Projects = () => {
                   <Card.Body>
                     <Card.Title>{proj.name}</Card.Title>
                     <Card.Text>{proj.description}</Card.Text>
-                    <Button variant="primary" href={proj.link} target="_blank">
-                      View Website
-                    </Button>
+                    <LinksContainer>
+                      <Button
+                        variant="primary"
+                        href={proj.link}
+                        target="_blank"
+                        style={{ marginRight: "0.5rem" }}
+                      >
+                        View Website
+                      </Button>
+                      <Button
+                        variant="outline-dark"
+                        href={proj.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-github"></i> GitHub
+                      </Button>
+                    </LinksContainer>
                   </Card.Body>
                 </>
               ))}
@@ -68,9 +119,24 @@ const Projects = () => {
                   <Card.Body>
                     <Card.Title>{proj.name}</Card.Title>
                     <Card.Text>{proj.description}</Card.Text>
-                    <Button variant="primary" href={proj.link} target="_blank">
-                      View Website
-                    </Button>
+                    <LinksContainer>
+                      <Button
+                        variant="primary"
+                        href={proj.link}
+                        target="_blank"
+                        style={{ marginRight: "0.5rem" }}
+                      >
+                        View Website
+                      </Button>
+                      <Button
+                        variant="outline-dark"
+                        href={proj.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-github"></i> GitHub
+                      </Button>
+                    </LinksContainer>
                   </Card.Body>
                 </>
               ))}
