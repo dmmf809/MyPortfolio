@@ -30,8 +30,8 @@ const About = () => {
               </p>
               <p>
                 I have successfully completed my skills as a developer through
-                SAIT's Information Technology course and has expanded my
-                knowledge as a web developer through SAIT’s Web Developer
+                SAIT's Information Technology course and learned more technical
+                skills as a web developer through SAIT’s Web Developer
                 Certificate program.
               </p>
               <p>
