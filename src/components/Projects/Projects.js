@@ -6,7 +6,6 @@ import {
   ProjectContainer,
   ProjectHeader,
   ProjCard,
-  Links,
   LinksContainer,
 } from "./styles";
 import { projects } from "./projects-data";
